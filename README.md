@@ -6,7 +6,7 @@ We include slightly modified versions of the [node2vec](https://github.com/adity
 
 We use model loading code from [Kipf and Welling](https://github.com/tkipf/gcn).
 
-Graph classification datastes were downloaded [here](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets).
+Graph classification datasets were downloaded [here](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets).
 
 Node classification datasets can be found [here](https://linqs.soe.ucsc.edu/data), but we use the specific splits provided [here](https://github.com/tkipf/gcn).
 
