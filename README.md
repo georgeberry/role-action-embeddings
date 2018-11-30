@@ -1,4 +1,4 @@
-# Code for [role embedding paper](https://arxiv.org/pdf/1811.08019.pdf)
+# Code for paper on [role action embeddings](https://arxiv.org/pdf/1811.08019.pdf)
 
 This was created using Python 3, it may not work with Python 2. All packages were installed using Anaconda's [miniconda distribution](https://conda.io/miniconda.html).
 
