@@ -12,11 +12,11 @@ Node classification datasets can be found [here](https://linqs.soe.ucsc.edu/data
 
 Model code was adapted from [Hamilton et al's code](https://github.com/williamleif/graphsage-simple).
 
-Make sure you have the dependencies installed. These are: `scikit-learn`, `numpy`, `pandas`, `networkx`, `matplotlib`, `seaborn`, `pytorch`, `gensim`, `jupyter`
+Make sure you have the dependencies installed. These are: `scikit-learn`, `numpy`, `pandas`, `networkx`, `matplotlib`, `seaborn`, `pytorch`, `gensim`, `jupyter`, `scipy`
 
 ## How to run `small_graphs.ipynb` code
 - Open a Jupyter notebook with `jupyter notebook` at the command line and open `small_graphs.ipynb`
 
 ## How to run code in the `empirical_graphs` folder
 - There are four notebooks, one for Cora, one for Citeseer, one for Pubmed, and one for all of the graph classification tasks.
-- In each notebook, you should set the `base_data_path` variable to the path to the `data` folder on your machine. Data is contained in the `empirical_graphs/data` folder.
+-  `empirical_graphs/models.py`, you should set the `base_data_path` variable to point to the `data` folder on your machine. Data is contained in the `empirical_graphs/data` folder.
