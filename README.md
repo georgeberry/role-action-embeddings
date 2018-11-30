@@ -18,8 +18,10 @@ Make sure you have the dependencies installed. These are: `scikit-learn`, `numpy
 - Open a Jupyter notebook with `jupyter notebook` at the command line and open `small_graphs.ipynb`
 
 ## How to run code in the `empirical_graphs` folder
-- There are four notebooks, one for Cora, one for Citeseer, one for Pubmed, and one for all of the graph classification tasks.
--  `empirical_graphs/models.py`, you should set the `base_data_path` variable to point to the `data` folder on your machine. Data is contained in the `empirical_graphs/data` folder.
+- There are four notebooks, one for Cora, one for Citeseer, one for Pubmed, and one for all of the graph classification tasks
+- Unzip `empirical_graphs/data.zip`
+-  `empirical_graphs/models.py`, you should set the `base_data_path` variable to point to the `data` folder on your machine. Data is contained in the `empirical_graphs/data` folder
+- For the graph classification, the `REDDIT-MULTI-12k` files are quite large, please download it from [here](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets).
 
 ## What are these `old-` files doing?
 - They're leftovers from my original runs to generate the results in the paper. I then went back and cleaned up the code. You can ignore them, but I wanted to keep them around for posterity.
