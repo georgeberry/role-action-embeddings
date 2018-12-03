@@ -1,5 +1,11 @@
 # Code for paper on [role action embeddings](https://arxiv.org/pdf/1811.08019.pdf)
 
+## Please cite as
+
+Berry, George. "Role action embeddings: scalable representation of network positions." arXiv preprint arXiv:1811.08019 (2018).
+
+## Notes
+
 This was created using Python 3, it may not work with Python 2. All packages were installed using Anaconda's [miniconda distribution](https://conda.io/miniconda.html).
 
 We include slightly modified versions of the [node2vec](https://github.com/aditya-grover/node2vec) and [GraphWave](https://github.com/snap-stanford/graphwave) repos for comparison.
